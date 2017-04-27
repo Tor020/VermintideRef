@@ -11,16 +11,37 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-size:1.3em;
+    line-height: 1.3em;
+}
+.sidebar { 
+background-color:#485563;
+padding:0em;
+margin-right:1em;
+
+    
 }
 
 
+.nav-sidebar a {
+    color: #fff;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+ .nav-sidebar>ul>li>a:active{ 
+    cursor: default;
+    background-color: #2b3e50;
+    color: #fff; 
+}
+ .nav-sidebar>ul>li>a:focus {
+    background-color: #2b3e50;   
+}
 
-
-
-
-
-
-
-
-
-
+.nav-sidebar>ul>li>a
+ {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
